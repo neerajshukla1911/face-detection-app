@@ -37,7 +37,7 @@ Below are face-detection REST api details.
         - Request Parameter:
             - file: file object (Required)
             - return_predicted_image: Return base64 string of image with detected faces bounding boxes. Value of parameter can true/false (optional)
-        - Response: Returns list of coordinates of detected faces.
+        - Response: Returns list of coordinates of detected faces. Below is sample response.
 
             {
                 "predictions": [
@@ -58,7 +58,7 @@ Below are face-detection REST api details.
         - Request Parameter:
             - image_url: "image url of image" (Required)
             - return_predicted_image: Return base64 string of image with detected faces bounding boxes. Value of parameter can true/false (optional)
-        - Response: Returns list of coordinates of detected faces.
+        - Response: Returns list of coordinates of detected faces. Below is sample response.
 
             {
                 "predictions": [
@@ -77,7 +77,7 @@ Below are face-detection REST api details.
 Usage
 -----
 You can use any http client (eg. postman) to hit post request on  http://localhost:8882/face-detection
-Below is sample curl requests. Change file path to your image file path.
+Below are sample curl requests. Change file path to your image file path.
 
 .. code:: shell
 
