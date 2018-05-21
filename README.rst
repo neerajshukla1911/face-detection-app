@@ -2,6 +2,7 @@ Face Detection App
 ******************
 Create your own face detection rest api in python.
 
+
 Installation
 ------------
 Face detection app has been tested in **Ubuntu 16.04** with **python 3.5**. Although it might work in other environments with/without few changes. Hit below commands in terminal to install app.
@@ -14,11 +15,13 @@ Face detection app has been tested in **Ubuntu 16.04** with **python 3.5**. Alth
     git clone https://github.com/davisking/dlib.git
     python setup.py install --yes USE_AVX_INSTRUCTIONS
 
+
 Run Server
 ----------
 Below command will start face-detection server on port 8882. Port can be modified in app.py file.
 
 .. code:: shell
+
     python app.py
 
 
@@ -27,6 +30,7 @@ REST API Details
 Below are face-detection REST api details.
 
 .. code:: shell
+
     - Request Type: form-data
         - Request method: post
         - API:          http://localhost:8882/face-detection
@@ -68,6 +72,7 @@ Below are face-detection REST api details.
                     }
                 ]
             }
+
 
 Usage
 -----
