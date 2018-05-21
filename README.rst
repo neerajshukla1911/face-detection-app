@@ -24,6 +24,8 @@ Below command will start face-detection server on port 8882. Port can be modifie
 
 REST API Details
 ----------------
+Below are face-detection REST api details.
+
 .. code:: shell
     - Request Type: form-data
         - Request method: post
@@ -71,6 +73,7 @@ Usage
 -----
 You can use any http client (eg. postman) to hit post request on  http://localhost:8882/face-detection
 Below is sample curl requests. Change file path to your image file path.
+
 .. code:: shell
 
     curl \
